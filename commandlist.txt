@@ -1,0 +1,26 @@
+-- Here we have to create a virtual env for better handeling of the project .
+Below are the commands .
+
+We can install different virtual environment so we have installed :  "install virtualenvwrapper-win"
+
+py -m venv env ---Create environment
+
+.\env\Scripts\activate or c:/Users/sarve/OneDrive/Desktop/practice/env/Scripts/Activate.ps1 --- Activare env
+ 
+ deactivate ---deactivare env
+
+ pip freeze > requirements.txt
+
+ pip install -r requirements.txt
+
+Activating Environment - c:/Users/sarve/OneDrive/Desktop/practice/env/Scripts/Activate.ps1
+
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3  # Path to your Python interpreter
+source /usr/local/bin/virtualenvwrapper.sh  # Path to the virtualenvwrapper script
+
+
+myapp is the subset of myproject 
+
+basically URL routing is the process 
+
